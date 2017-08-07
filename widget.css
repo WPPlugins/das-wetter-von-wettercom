@@ -1,0 +1,137 @@
+#wettercom_admin {
+	position:relative;
+	width:500px;
+	margin:auto;
+	margin-top:10px;
+	background-color:#FFF;
+	border:1px solid #808080;
+}
+
+#wettercom_admin #logo {
+	position:absolute;
+	left:400px;
+	top:10px;
+}
+
+#wettercom_admin #top {
+	padding:13px 10px;
+	background-color:#FFC52B;
+	border-bottom:1px solid #042C5D;
+	font-size:1.4em;
+	font-weight:bold;
+}
+
+#wettercom_admin #api_keys {
+	padding:10px;
+	overflow:auto;
+	margin-top:4px;
+}
+
+#wettercom_admin  input[type=text] {
+}
+
+#wettercom_box {
+	line-height:125%;
+}
+
+#wettercom_box #wx_icon {
+	width:40%;
+	float:left;
+}
+#wettercom_box #wx_main {
+	width:60%;
+	float:left;
+	text-align:center;
+}
+#wettercom_box #wind_icon {
+	width:40%;
+	float:left;
+}
+#wettercom_box #wind_box {
+	width:60%;
+	float:left;
+	text-align:center;
+}
+#wettercom_box #ns_icon {
+	width:40%;
+	float:left;
+}
+#wettercom_box #ns_box {
+	width:60%;
+	float:left;
+	text-align:center;
+}
+#wettercom_box #more {
+	float:left;
+	margin-top:9px;
+}
+#wettercom_box #logo {
+	width:96px;
+	float:right;
+	text-align:right;
+	margin-top:5px;
+}
+
+#wettercom_box #date {
+	width:100%;
+	text-align:center;
+	margin:5px 0px 2px 0px;
+}
+
+#wettercom_box .spacing {
+	height:10px;
+}
+
+#wettercom_box .spacing_s {
+	height:5px;
+}
+
+#wettercom_box .text_s {
+    font-size:10px;
+    font-weight:normal;
+}
+
+#wettercom_box .text_m {
+    font-size:11px;
+    font-weight:bold;
+}
+
+#wettercom_box .text_l {
+    font-size:15px;
+    font-weight:bold;
+}
+
+#wettercom_box .cleaner {
+    clear:both;
+}
+
+#wettercom_error {
+	line-height:125%;
+}
+
+#wettercom_error .msg{
+	margin:15px 0px 5px 0px;
+	color:red;
+	text-align:center;
+}
+
+.wxicon{
+	width:84px;
+	height:63px;
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+
+.nsicon{
+	width:41px;
+	height:42px;
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+
+.wind{
+	width:50px;
+	height:50px;
+	background-position:top center;
+	background-repeat:no-repeat;
+}
